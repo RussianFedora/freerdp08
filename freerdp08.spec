@@ -8,7 +8,7 @@ Summary:        Remote Desktop Protocol client
 Group:          Applications/Communications
 License:        GPLv2+
 URL:            http://www.freerdp.com/
-Source0:        http://downloads.sourceforge.net/%{name}/freerdp-%{version}.tar.gz
+Source0:        http://downloads.sourceforge.net/freerdp/freerdp-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 BuildRequires:  alsa-lib-devel
